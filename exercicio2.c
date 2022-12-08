@@ -26,7 +26,7 @@ int main()
 	setlocale(LC_ALL,"Portuguese");//Função da library <locale.h>, setando o idioma pra português
 	int voto = 1, um = 0, dois = 0, tres = 0, quatro = 0, cinco = 0, seis = 0;//variáveis
 
-	while (voto != 0)//para quando voto = 0
+	while (voto != 0)//para quando voto diferente de 0
 	{
 		printf("insira o seu voto, considerando: \n1 = candidato 1, \n2 = candidato 2, \n3 = candidato 3, \n4 = candidato 4, \n5 = voto branco, \n6 = voto nulo.");
 		printf("\n\n");//quebra duas linhas
