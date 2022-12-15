@@ -6,8 +6,8 @@ int main (){
     if (*ponteirox > *ponteiroy){
 	    printf ("X: %i", *ponteirox);
     }
-	else{
+    else{
 	    printf ("Y: %i", *ponteiroy);
-	}
-	return 0;
+    }
+    return 0;
 }
